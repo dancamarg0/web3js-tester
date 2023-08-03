@@ -1,0 +1,22 @@
+{
+  "name": "test-solana-web3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "author": "Nejc",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "1.78.1",
+    "node-fetch": "2.6.7"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.1",
+    "@types/node-fetch": "^2.6.3",
+    "typescript": "^5.0.4",
+    "ts-node": "^10.9.1"
+  }
+}
